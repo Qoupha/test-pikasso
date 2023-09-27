@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    max-width: 100%;
+}
+
+.list-container {
+    width: 100% !important;
+}
+
+.cardNumber {
+    min-width: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+}
+
+.cardBody {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.cardButton {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin: 20px;
+    background-color: rgb(83, 83, 206);
+    border: none;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    padding: 0px 15px;
+}
+
+.button p {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.button:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    /* color: white; */
+}

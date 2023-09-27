@@ -1,0 +1,18 @@
+.button {
+    background-color: rgb(83, 83, 206);
+    border: none;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    padding: 0px 40px ;
+}
+
+.button p {
+    font-size: 14px;
+    color: white;
+}
+
+.button:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+}
